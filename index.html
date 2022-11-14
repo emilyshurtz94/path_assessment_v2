@@ -44,7 +44,7 @@
       <h2> This assessment will help you find which path is best for you! Please answer each question honestly so
         we can provide you with the best possible help for you to succeed!</h2>
       <div class='row p-4'>
-        <div class='col-12'>
+        <div class='col-12' id="q1" data-next="q2">
           <h3>Which of the following best describes you?
           </h3>
           <div class="form-check">
@@ -72,7 +72,7 @@
             </label>
           </div>
         </div>
-        <div class='col-12'>
+        <div class='col-12' id="q2" data-next="q3">
           <h3>When choosing your business model, how important is the timeframe for getting set up?
           </h3>
           <div class="form-check">
@@ -101,7 +101,7 @@
             </label>
           </div>
         </div>
-        <div class='col-12'>
+        <div class='col-12' id="q3" data-next="q4">
           <h3>How do you feel about being on social media?</h3>
           <div class="form-check">
             <input class="form-check-input" type="radio" name="question3" data-score="knowledge">
@@ -128,7 +128,7 @@
             </label>
           </div>
         </div>
-        <div class='col-12'>
+        <div class='col-12' id="q4" data-next="q5">
           <h3>
             Do you currently have a skill, knowledge base, or area of expertise you could teach to others?</h3>
           <div class="form-check">
@@ -157,8 +157,7 @@
             </label>
           </div>
         </div>
-
-          <div class='col-12'>
+        <div class='col-12' id="q5" data-next="q6">
             <h3>How would you rate your technical knowledge?</h3>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="question5" data-score="knowledge">
@@ -184,9 +183,8 @@
                 Beginner: I barely know how to turn on the computer.
               </label>
             </div>
-          </div>
-
-          <div class='col-12'>
+       </div>
+          <div class='col-12' id="q6" data-next="q7">
             <h3>How do you feel about person-to-person sales (either face-to-face or via Zoom, phone, or chat)?</h3>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="question6" data-score="sales">
@@ -213,7 +211,7 @@
               </label>
             </div>
           </div>
-          <div class='col-12'>
+          <div class='col-12' id="q7" data-next="q8">
             <h3>While every business model includes some level of risk, some models have more risk than others. How do
               you feel about taking risks?</h3>
             <div class="form-check">
@@ -243,7 +241,7 @@
               </label>
             </div>
           </div>
-          <div class='col-12'>
+          <div class='col-12' id="q8" data-next="q9">
             <h3>How would you describe your business experience.financial literacy?</h3>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="question8" data-score="sales">
@@ -270,7 +268,7 @@
               </label>
             </div>
           </div>
-          <div class='col-12'>
+          <div class='col-12' id="q9" data-next="q10">
             <h3>If you could pick your own work hours, which would you choose</h3>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="question9" data-score="agency">
@@ -296,7 +294,7 @@
                 I want to be spontaneous with the hours I work and able to decide in-the-moment</label>
             </div>
           </div>
-          <div class='col-12'>
+          <div class='col-12' id="q10" data-next="result">
             <h3>Which of the following best describes you?</h3>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="question10" id="unscored">
