@@ -1,0 +1,39 @@
+header {
+    text-align:center;
+    display:flexbox;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding:20px;
+    margin:auto;
+    background-color: rgb(8, 8, 135);
+    text-decoration: underline;
+    text-decoration-color: white;
+    opacity: 80%;
+
+};
+
+.answer {
+    background-color: yellow;
+    color:white;
+    border-radius: 10px;
+    padding: 1em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.answer:hover{
+    background-color: cadetblue;
+}
+
+.answer:selected{
+    background-color: navy;
+}
+
+
+
+#results{
+    text-align:center;
+    justify-content: center;
+    display:inline-flex
+}
+
